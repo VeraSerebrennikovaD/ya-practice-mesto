@@ -106,6 +106,15 @@
       </form>
     </div>
   </div>
+  <div class="popup popup_type_confirm">
+    <div class="popup__content">
+      <button type="button" class="popup__close"></button>
+      <h3 class="popup__title">Вы уверены?</h3>
+      <form class="popup__form" name="confirm-delete">
+        <button type="submit" class="button popup__button">Да</button>
+      </form>
+    </div>
+  </div>
   <!-- <section class="popup popup-add">
     <form class="popup__form popup-add__form" name="form" novalidate>
         <button class="popup__btn-close popup-add__btn-close" type="button"></button>
@@ -128,17 +137,17 @@
       <p class="popup__caption"></p>
     </div>
   </div>
-      <div class="popup popup_type_info">
-      <div class="popup__content">
-        <button type="button" class="popup__close"></button>
-        <h3 class="popup__title">Статистика карточек</h3>
+    <div class="popup popup_type_info">
+    <div class="popup__content popup__content_type_info">
+      <button type="button" class="popup__close"></button>
+      <h3 class="popup__title">Статистика карточек</h3>
 
-        <ul class="popup__info-list"></ul>
+      <div class="popup__stats"></div>
 
-        <h4 class="popup__title popup__title_type_small">Топ авторы</h4>
-        <ul class="popup__preview-list"></ul>
-      </div>
+      <h4 class="popup__subtitle">Популярные карточки:</h4>
+      <div class="popup__chips"></div>
     </div>
+  </div>
 </div>
 <!-- <section class="popup popup-img">
   <div class="popup__img-window">
