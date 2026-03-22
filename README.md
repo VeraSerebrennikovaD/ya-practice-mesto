@@ -10,11 +10,11 @@
 
 <div class="Toastify">
 
-</div>
+</div> 
 
 <div class="page__content">
 
-<div class="unified-sidebar__container">
+<div class="unified-sidebar__container">   
 
 <!-- end list -->
 
