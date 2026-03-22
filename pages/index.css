@@ -14,3 +14,61 @@
 /* cards */
 @import url(../blocks/card/card.css);
 
+.card__like-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.card__like-count {
+  font-size: 13px;
+  line-height: 1;
+  color: #000;
+}
+
+.profile__image {
+  cursor: pointer;
+}
+
+.popup__info-list,
+.popup__preview-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.popup__info-list {
+  margin-bottom: 24px;
+}
+
+.popup__info-item,
+.popup__preview-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  color: #000;
+  margin-bottom: 12px;
+}
+
+.popup__info-item:last-child,
+.popup__preview-item:last-child {
+  margin-bottom: 0;
+}
+
+.popup__info-term,
+.popup__preview-title {
+  font-weight: 600;
+}
+
+.popup__info-definition,
+.popup__preview-subtitle {
+  text-align: right;
+}
+
+.popup__title_type_small {
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 0 0 16px;
+}
